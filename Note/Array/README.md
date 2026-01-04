@@ -57,7 +57,7 @@ calculated using the base address of the array and the index multiplied by
 the size of each element.
 
 <p align="center">
-  <img src="../assets/images/array_memory_layout.png" width="600">
+  <img src="../../assets/images/array_memory_layout.png" width="600">
 </p>
 
 <p align="center">
