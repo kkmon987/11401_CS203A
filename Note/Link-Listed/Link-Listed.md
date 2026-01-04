@@ -62,7 +62,7 @@ Traversal is **one-directional**: from head to tail.
 
 **Diagram (recommended):**
 <p align="center">
-  <img src="../../assets/images/sll.png" width="650">
+  <img src="../../assets/images/Link-Listed/sll.png" width="650">
 </p>
 <p align="center">
   <em>Figure 1. Singly linked list: each node points to the next node.</em>
@@ -84,7 +84,7 @@ Traversal is **bidirectional** (forward and backward).
 
 **Diagram (recommended):**
 <p align="center">
-  <img src="../../assets/images/dll.png" width="650">
+  <img src="../../assets/images/Link-Listed/dll.png" width="650">
 </p>
 <p align="center">
   <em>Figure 2. Doubly linked list: each node links to both next and previous nodes.</em>
@@ -107,14 +107,14 @@ Circular lists may be:
 
 **Diagrams (recommended):**
 <p align="center">
-  <img src="../../assets/images/csll.png" width="650">
+  <img src="../../assets/images/Link-Listed/csll.png" width="650">
 </p>
 <p align="center">
   <em>Figure 3. Circular singly linked list: tail.next points back to head.</em>
 </p>
 
 <p align="center">
-  <img src="../../assets/images/cdll.png" width="650">
+  <img src="../../assets/images/Link-Listed/cdll.png" width="650">
 </p>
 <p align="center">
   <em>Figure 4. Circular doubly linked list: both ends connect to form a ring.</em>
