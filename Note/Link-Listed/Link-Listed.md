@@ -284,16 +284,6 @@ Common applications include:
 
 ---
 
-## 11. Notes
 
-- This repository is intended for educational use.
-- The document is theory-focused and does not include programming code.
-- Images are optional but recommended for clarity. Place them under:
-  - `assets/images/`
 
-Suggested image filenames:
-- `assets/images/sll.png`
-- `assets/images/dll.png`
-- `assets/images/csll.png`
-- `assets/images/cdll.png`
 
