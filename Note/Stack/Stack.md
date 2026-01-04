@@ -289,8 +289,6 @@ Common issues to guard against in conceptual design and reasoning:
 - **Wrong structure choice**: using a stack when FIFO behavior is required
 - **Call stack limits**: recursion depth may exceed system stack capacity
 
-Best practice conceptually:
-always define stopping conditions and boundary behavior clearly.
 
 ---
 
