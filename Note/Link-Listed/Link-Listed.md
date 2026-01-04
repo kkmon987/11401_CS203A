@@ -62,7 +62,7 @@ Traversal is **one-directional**: from head to tail.
 
 **Diagram (recommended):**
 <p align="center">
-  <img src="assets/images/sll.png" width="650">
+  <img src="../..assets/images/sll.png" width="650">
 </p>
 <p align="center">
   <em>Figure 1. Singly linked list: each node points to the next node.</em>
