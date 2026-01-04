@@ -284,7 +284,7 @@ Common applications include:
 
 ---
 
-## 11.  References
+## 11. References
 
 1. GeeksforGeeks – Linked List Data Structure  
    https://www.geeksforgeeks.org/data-structures/linked-list/
