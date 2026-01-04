@@ -149,6 +149,23 @@ and deletion but require more memory and do not support direct indexing.
 Arrays are ideal when fast access and memory efficiency are priorities.
 
 ---
+## 11. References
+
+1. GeeksforGeeks – Array Data Structure  
+   https://www.geeksforgeeks.org/array-data-structure/
+
+2. Stanford CS – Arrays and Memory Layout  
+   https://cs.stanford.edu/people/eroberts/courses/soco/projects/1998-99/linked-lists/arrays.html
+
+3. MIT OpenCourseWare – Introduction to Algorithms  
+   https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/
+
+4. TutorialsPoint – Data Structures: Arrays  
+   https://www.tutorialspoint.com/data_structures_algorithms/array_data_structure.htm
+
+5. Wikipedia – Array (data structure)  
+   https://en.wikipedia.org/wiki/Array_data_structure
+
 
 
 
