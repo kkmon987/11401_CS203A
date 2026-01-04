@@ -53,7 +53,7 @@ Key terms:
 
 ## 2. Core Concepts of Stacks
 <p align="center">
-  <img src="assets/images/stack_lifo.png" width="500">
+  <img src="../../assets/images/stack_lifo_overview.png" width="500">
 </p>
 <p align="center">
   <em>Figure 1. Stack structure illustrating LIFO behavior.</em>
@@ -73,7 +73,7 @@ This constrained access pattern is central to why stacks are useful in:
 ### Push and Pop Operations
 
 <p align="center">
-  <img src="assets/images/stack_push_pop.png" width="500">
+  <img src="../../assets/images/stack_push_pop.png" width="500">
 </p>
 <p align="center">
   <em>Figure 2. Push and pop operations on a stack.</em>
@@ -120,7 +120,7 @@ Memory implications:
 - Linked stacks avoid fixed capacity limits but have **pointer overhead** per element.
 - System call stacks (function calls) are a real-world example of stack behavior used by runtime execution.
 <p align="center">
-  <img src="assets/images/stack_array_vs_linked.png" width="650">
+  <img src="../../assets/images/stack_array_vs_linked.png" width="650">
 </p>
 <p align="center">
   <em>Figure 3. Comparison of array-based and linked-list-based stack memory models.</em>
@@ -211,7 +211,7 @@ Browser “Back/Forward” behavior is often modeled with stacks:
 - back stack records navigation history
 - forward stack records pages you can return to after going back
 <p align="center">
-  <img src="assets/images/stack_applications.png" width="650">
+  <img src="../../assets/images/stack_applications.png" width="650">
 </p>
 <p align="center">
   <em>Figure 5. Real-world applications of stacks.</em>
