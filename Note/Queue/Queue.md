@@ -1,25 +1,42 @@
 # Queue: A Fundamental Data Structure
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Basic Concepts of Queues](#basic-concepts-of-queues)
-- [Queue Operations](#queue-operations)
-- [Implementation Strategies](#implementation-strategies)
-  - [4.1 Array-Based Implementation](#41-array-based-implementation)
-  - [4.2 Linked List Implementation](#42-linked-list-implementation)
-  - [4.3 Bounded vs Unbounded Queues](#43-bounded-vs-unbounded-queues)
-- [Variations of Queue](#variations-of-queue)
-  - [5.1 Circular Queue](#51-circular-queue)
-  - [5.2 Priority Queue](#52-priority-queue)
-  - [5.3 Double-Ended Queue (Deque)](#53-double-ended-queue-deque)
-- [Applications of Queues](#6-applications-of-queues)
-- [Complexity and Performance](#7-complexity-and-performance)
-- [Conclusion](#8-conclusion)
-- [References](#9-references)
+- [Definition of Queue](#1-definition-of-queue)
+- [Introduction](#2-introduction)
+- [Basic Concepts of Queues](#3-basic-concepts-of-queues)
+- [Queue Operations](#4-queue-operations)
+- [Implementation Strategies](#5-implementation-strategies)
+  - [5.1 Array-Based Implementation](#51-array-based-implementation)
+  - [5.2 Linked List Implementation](#52-linked-list-implementation)
+  - [5.3 Bounded vs Unbounded Queues](#53-bounded-vs-unbounded-queues)
+- [Variations of Queue](#6-variations-of-queue)
+  - [6.1 Circular Queue](#61-circular-queue)
+  - [6.2 Priority Queue](#62-priority-queue)
+  - [6.3 Double-Ended Queue (Deque)](#63-double-ended-queue-deque)
+- [Applications of Queues](#7-applications-of-queues)
+- [Complexity and Performance](#8-complexity-and-performance)
+- [Conclusion](#9-conclusion)
+- [References](#10-references)
 
 ---
 
-## Introduction
+## 1. Definition of Queue
+
+A **Queue** is a linear abstract data structure that follows the **First-In, First-Out (FIFO)** principle.  
+This means that the first element inserted into the queue is the first element to be removed.
+
+In a queue, elements are **added at one end**, called the **rear**, and **removed from the opposite end**, called the **front**.  
+At any time, only the element at the front of the queue is eligible for removal, which enforces a strict ordering of elements based on their arrival time.
+
+Queues define **behavior rather than implementation**.  
+They specify how elements are inserted and removed, but not how the data is physically stored in memory.  
+As long as the FIFO rule is preserved, a queue can be implemented using different underlying data structures, such as arrays or linked lists.
+
+Because of this ordered processing property, queues are widely used in systems where **fairness, sequencing, and temporal order** are required, such as operating system scheduling, buffering, networking, and algorithm design.
+
+---
+
+## 2. Introduction
 
 In computer science, a **queue** is an abstract data type that represents an ordered collection of elements following the **First-In, First-Out (FIFO)** principle. This means that the first element added to the queue will be the first one removed, analogous to a line of customers waiting for service at a store. Elements are added at one end, called the **rear** (or *back* or *tail*), and removed from the other end, called the **front** (or *head*) of the queue.
 
@@ -36,7 +53,7 @@ Queues appear in both software and hardware contexts, including FIFO buffers and
 
 ---
 
-## Basic Concepts of Queues
+## 3. Basic Concepts of Queues
 
 A queue can be thought of as a **waiting line**: elements enter from one end and leave from the other, ensuring chronological processing.  
 
@@ -47,7 +64,7 @@ Key ideas:
 
 ---
 
-## Queue Operations
+## 4. Queue Operations
 
 The fundamental operations applicable to a queue include:
 
@@ -67,7 +84,7 @@ In standard implementations, enqueue and dequeue can typically be achieved in **
 
 ---
 
-## Implementation Strategies
+## 5. Implementation Strategies
 
 A queue can be implemented using different underlying structures. The most common strategies are:
 
@@ -78,7 +95,7 @@ These differ in memory layout, capacity constraints, and performance characteris
 
 ---
 
-### 4.1 Array-Based Implementation
+### 5.1 Array-Based Implementation
 
 Arrays provide constant-time index access, but a naive queue implementation may require shifting elements after dequeuing, which is inefficient (**O(n)**).
 
@@ -95,7 +112,7 @@ Capacity considerations:
 
 ---
 
-### 4.2 Linked List Implementation
+### 5.2 Linked List Implementation
 
 A linked list queue uses nodes connected by pointers/references.
 
@@ -116,7 +133,7 @@ A doubly linked list can also be used, but a singly linked list with a tail poin
 
 ---
 
-### 4.3 Bounded vs Unbounded Queues
+### 5.3 Bounded vs Unbounded Queues
 
 A queue may be constrained in capacity depending on implementation:
 
@@ -134,13 +151,13 @@ Implementation choice depends on the application (e.g., real-time systems often 
 
 ---
 
-## Variations of Queue
+## 6. Variations of Queue
 
 In addition to standard FIFO queues, there are several important variants.
 
 ---
 
-### 5.1 Circular Queue
+### 6.1 Circular Queue
 
 A **circular queue** reuses storage in a circular manner by logically connecting the end back to the start, forming a ring.
 
@@ -159,7 +176,7 @@ Applications:
 
 ---
 
-### 5.2 Priority Queue
+### 6.2 Priority Queue
 
 A **priority queue** associates each element with a priority and serves elements based on priority rather than arrival time.
 
@@ -183,7 +200,7 @@ Applications:
 
 ---
 
-### 5.3 Double-Ended Queue (Deque)
+### 6.3 Double-Ended Queue (Deque)
 
 A **deque** allows insertions and deletions at **both ends**.
 
@@ -208,7 +225,7 @@ Applications:
 
 ---
 
-## 6. Applications of Queues
+## 7. Applications of Queues
 
 Queues are widely used when ordered processing and fairness are required.
 
@@ -225,7 +242,7 @@ Queues enable decoupling producers/consumers and smoothing rate differences via 
 
 ---
 
-## 7. Complexity and Performance
+## 8. Complexity and Performance
 
 For a standard FIFO queue (linked list or circular buffer based):
 
@@ -249,7 +266,7 @@ Queues are optimized for sequential access, not random access.
 
 ---
 
-## 8. Conclusion
+## 9. Conclusion
 
 Queues are one of the fundamental data structures in computer science and engineering, characterized by their first-in, first-out operation which models many real-world and computing scenarios. In this document, we have explored the core concepts of queues, their operations, and how they can be implemented using arrays (with circular buffering) or linked lists, each with its own benefits. We also examined important variations of queues: the circular queue (for efficient fixed-size buffer management), the priority queue (for managing elements by priority rather than arrival time), and the double-ended queue (deque) which generalizes the queue to allow operations at both ends. Each of these structures expands the utility of the basic queue to suit different problems and requirements.
 
@@ -263,7 +280,7 @@ In summary, the queue is a versatile and essential data structure that embodies 
 
 ---
 
-## 9. References
+## 10. References
 
 1. Wikipedia — Queue (abstract data type): https://en.wikipedia.org/wiki/Queue_(abstract_data_type)  
 2. Wikipedia — FIFO (computing and electronics): https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics)  
