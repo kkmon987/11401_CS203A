@@ -56,6 +56,14 @@ Arrays store elements sequentially in memory. The address of an element is
 calculated using the base address of the array and the index multiplied by
 the size of each element.
 
+<p align="center">
+  <img src="assets/images/array_memory_layout.png" width="600">
+</p>
+
+<p align="center">
+  <em>Figure 1. Contiguous memory layout and indexing of an array</em>
+</p>
+
 This structure allows direct access to any element without traversing other
 elements, which is one of the key advantages of arrays.
 
