@@ -73,7 +73,7 @@ This constrained access pattern is central to why stacks are useful in:
 ### Push and Pop Operations
 
 <p align="center">
-  <img src="../../assets/images/stack_push_pop.png" width="500">
+  <img src="../../assets/images/stack_push_pop_operations.png" width="500">
 </p>
 <p align="center">
   <em>Figure 2. Push and pop operations on a stack.</em>
