@@ -52,6 +52,12 @@ Key terms:
 ---
 
 ## 2. Core Concepts of Stacks
+<p align="center">
+  <img src="assets/images/stack_lifo.png" width="500">
+</p>
+<p align="center">
+  <em>Figure 1. Stack structure illustrating LIFO behavior.</em>
+</p>
 
 ### LIFO Principle
 
@@ -65,6 +71,13 @@ This constrained access pattern is central to why stacks are useful in:
 - backtracking in search
 
 ### Push and Pop Operations
+
+<p align="center">
+  <img src="assets/images/stack_push_pop.png" width="500">
+</p>
+<p align="center">
+  <em>Figure 2. Push and pop operations on a stack.</em>
+</p>
 
 - **Push** adds a new element to the top of the stack and increases stack size by one.
 - **Pop** removes the element at the top and decreases stack size by one.
@@ -106,7 +119,12 @@ Memory implications:
 - Array-based stacks often have better **cache locality** (contiguous memory).
 - Linked stacks avoid fixed capacity limits but have **pointer overhead** per element.
 - System call stacks (function calls) are a real-world example of stack behavior used by runtime execution.
-
+<p align="center">
+  <img src="assets/images/stack_array_vs_linked.png" width="650">
+</p>
+<p align="center">
+  <em>Figure 3. Comparison of array-based and linked-list-based stack memory models.</em>
+</p>
 ---
 
 ## 5. Types of Stacks
@@ -192,7 +210,12 @@ This design matches user expectations for reversible histories.
 Browser “Back/Forward” behavior is often modeled with stacks:
 - back stack records navigation history
 - forward stack records pages you can return to after going back
-
+<p align="center">
+  <img src="assets/images/stack_applications.png" width="650">
+</p>
+<p align="center">
+  <em>Figure 5. Real-world applications of stacks.</em>
+</p>
 ---
 
 ## 8. Common Operations and Complexity
