@@ -21,7 +21,7 @@ The content focuses on conceptual understanding (no programming implementation, 
 8. [Comparison with Arrays and Other Structures](#8-comparison-with-arrays-and-other-data-structures)
 9. [Real-World Use Cases](#9-real-world-use-cases-and-applications)
 10. [Common Pitfalls and Misconceptions](#10-common-pitfalls-and-misconceptions)
-11. [Notes](#11-notes)
+11. [References](#11-references)
 
 ---
 
@@ -283,6 +283,23 @@ Common applications include:
 - Modifying a list during traversal without safely managing next references
 
 ---
+
+## 11.  References
+
+1. GeeksforGeeks – Linked List Data Structure  
+   https://www.geeksforgeeks.org/data-structures/linked-list/
+
+2. Stanford CS – Linked Lists and Pointer Structures  
+   https://cs.stanford.edu/people/eroberts/courses/soco/projects/1998-99/linked-lists/
+
+3. MIT OpenCourseWare – Introduction to Algorithms  
+   https://ocw.mit.edu/courses/6-006-introduction-to-algorithms/
+
+4. TutorialsPoint – Linked List Data Structure  
+   https://www.tutorialspoint.com/data_structures_algorithms/linked_list_algorithms.htm
+
+5. Wikipedia – Linked List  
+   https://en.wikipedia.org/wiki/Linked_list
 
 
 
