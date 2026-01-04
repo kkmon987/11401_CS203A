@@ -10,6 +10,25 @@ of arrays.
 
 ---
 
+## Table of Contents
+
+1. [Definition of Arrays](#1-definition-of-arrays)
+2. [Characteristics and Properties](#2-characteristics-and-properties)
+3. [Types of Arrays](#3-types-of-arrays)
+   - [One-Dimensional Arrays](#one-dimensional-arrays)
+   - [Multi-Dimensional Arrays](#multi-dimensional-arrays)
+   - [Dynamic Arrays](#dynamic-arrays)
+4. [Memory Layout and Indexing](#4-memory-layout-and-indexing)
+5. [Common Operations on Arrays](#5-common-operations-on-arrays)
+6. [Time and Space Complexity](#6-time-and-space-complexity)
+7. [Advantages of Arrays](#7-advantages-of-arrays)
+8. [Disadvantages of Arrays](#8-disadvantages-of-arrays)
+9. [Use Cases and Applications](#9-use-cases-and-applications)
+10. [Comparison with Other Data Structures](#10-comparison-with-other-data-structures)
+11. [References](#11-references)
+
+---
+
 ## 1. Definition of Arrays
 
 An array is a linear data structure that stores a collection of elements in
