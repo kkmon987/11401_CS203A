@@ -263,7 +263,7 @@ In summary, the queue is a versatile and essential data structure that embodies 
 
 ---
 
-## 9.  References
+## 9. References
 
 1. Wikipedia — Queue (abstract data type): https://en.wikipedia.org/wiki/Queue_(abstract_data_type)  
 2. Wikipedia — FIFO (computing and electronics): https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics)  
