@@ -1,0 +1,5 @@
+Definition of Arrays
+An array is a linear data structure that stores a collection of elements in contiguous memory locations. 
+Each element is identified by an index (typically a non-negative integer), enabling direct address computation and constant-time random access (O(1)). 
+In many languages, arrays store homogeneous elements (same data type) and have a fixed length determined at creation.
+Dynamic arrays extend this idea by resizing automatically while preserving indexed access.
